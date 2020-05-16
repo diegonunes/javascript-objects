@@ -55,8 +55,8 @@ const menu = {
 
     return `Sua refeição é ${entrada.nome}, ${principal.nome}, ${sobremesa.nome}, e o valor total é de ${valorTotal}`;
   },
-  // Adiciona opções
 };
+// Adiciona opções
 // Entradas
 menu.addPratoOpcao('entradas', 'salada', 4);
 menu.addPratoOpcao('entradas', 'asinhas', 6);
